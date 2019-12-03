@@ -1,0 +1,67 @@
+@font-face {
+  font-family: ty;
+  src: url('Thank you.ttf');
+}
+
+body {
+    background-image: linear-gradient(
+      rgba(91, 90, 114, 0.6),
+      rgba(91, 90, 114, 0.6)),
+      url("/images/smudge2.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sansation;
+}
+
+#title {
+    text-align: center;
+    margin-top: 300px;
+}
+#next {
+    text-align: center;
+    font-family: ty;
+    font-size: 30px;
+    color: white;
+}
+
+span{
+  font-family: ty;
+  text-transform: lowercase;
+  font-size: 80;
+  line-height: 80px;
+  vertical-align: bottom;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:active { 
+  color: #c29dc3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f6c4f8;
+  text-decoration: none;
+}
+
+a:visited { 
+  color: white;
+  text-decoration: none;
+}
+
+a:visited:hover { 
+  color: #f6c4f8;
+}
+
