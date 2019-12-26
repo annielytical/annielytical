@@ -47,15 +47,6 @@ body {
     color: white;
 }
 
-span{
-  font-family: ty;
-  text-transform: lowercase;
-  font-size: 45;
-  line-height: 45px;
-  vertical-align: bottom;
-  color: white;
-}
-
 h1{
   font-family: ty;
   text-transform: lowercase;
@@ -83,11 +74,6 @@ a:link {
   color: white;
   text-decoration: none;
 
-}
-
-a:active { 
-  color: #c29dc3;
-  text-decoration: none;
 }
 
 nav a:hover {
@@ -141,8 +127,26 @@ ul{
    background-color: rgb(216, 209, 222);
 }
 
+#skills {
+   background-color: rgb(254, 248, 255);
+}
+
 #code {
    background-color: rgb(216, 209, 222);
+}
+
+#writing {
+   background-color: rgb(254, 248, 255);
+}
+
+#footer {
+   padding: 5px;
+   background-color: rgb(216, 209, 222);
+}
+
+#footer li {
+    display: inline;
+    padding: 2px;
 }
 
 #writing a {
