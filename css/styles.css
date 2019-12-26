@@ -4,6 +4,25 @@
 }
 
 body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    text-align: center;
+    font-family: sansation;
+}
+
+.scroll-back {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(
+      rgba(91, 90, 114, 0.6),
+      rgba(91, 90, 114, 0.6)),
+      url("/images/smudge2.jpg");
+}
+
+#root {
     background-image: linear-gradient(
       rgba(91, 90, 114, 0.6),
       rgba(91, 90, 114, 0.6)),
@@ -12,12 +31,14 @@ body {
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
-    font-family: sansation;
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 #title {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 #next {
     text-align: center;
@@ -29,10 +50,28 @@ body {
 span{
   font-family: ty;
   text-transform: lowercase;
-  font-size: 80;
-  line-height: 80px;
+  font-size: 45;
+  line-height: 45px;
   vertical-align: bottom;
   color: white;
+}
+
+h1{
+  font-family: ty;
+  text-transform: lowercase;
+  font-size: 65;
+  line-height: 65px;
+  vertical-align: bottom;
+  color: white;
+}
+h2{
+  font-family: sansation;
+  text-transform: uppercase;
+  font-size: 30;
+  line-height: 30px;
+  vertical-align: bottom;
+  color: white;
+  text-align: center;
 }
 
 a {
@@ -51,7 +90,7 @@ a:active {
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   color: #f6c4f8;
   text-decoration: none;
 }
@@ -65,3 +104,75 @@ a:visited:hover {
   color: #f6c4f8;
 }
 
+#nav {
+  font-family: sansation;
+  font-size: 22px;
+  text-align: center;
+  line-height: 65px;
+  position: fixed;
+  width: 100%;
+  letter-spacing: 2px;
+  z-index: 3;
+  padding: 10px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#nav li{
+  font-weight: 100;
+  text-transform: lowercase;
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 12px;
+  color: inherit;
+  margin-bottom:0px;
+  border-radius: 5px;
+
+}
+
+#about {
+   background-color: rgb(216, 209, 222);
+}
+
+#code {
+   background-color: rgb(216, 209, 222);
+}
+
+#writing a {
+    color: black;
+}
+
+#code a:hover {
+    color: #5B5A72;
+}
+
+#writing a:hover {
+    color: #5B5A72;
+}
+
+.container {
+    padding: 30px;
+    text-align: center;
+}
+
+span{
+  font-family: ty;
+  text-transform: lowercase;
+  font-size: 45;
+  line-height: 65px;
+  color: white;
+}
+
+.anchor{
+  display: block;
+  height: 85px;
+  margin-top: -85px;
+  visibility: hidden;
+}
