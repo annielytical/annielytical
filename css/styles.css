@@ -17,16 +17,16 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-image: linear-gradient(
-      rgba(91, 90, 114, 0.6),
-      rgba(91, 90, 114, 0.6)),
-      url("/images/smudge2.jpg");
+      rgba(154,124,154, 0.6),
+      rgba(154,124,154, 0.6)),
+      url("/images/oo.jpg");
 }
 
 #root {
     background-image: linear-gradient(
-      rgba(91, 90, 114, 0.6),
-      rgba(91, 90, 114, 0.6)),
-      url("/images/smudge2.jpg");
+      rgba(154,124,154, 0.6),
+      rgba(154,124,154, 0.6)),
+      url("/images/oo.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
@@ -61,33 +61,28 @@ h2{
   font-size: 30;
   line-height: 30px;
   vertical-align: bottom;
-  color: white;
+  color: #5B5A72;
   text-align: center;
 }
 
 a {
+  color: #5B5A72;
+  text-decoration: none;
+}
+
+#nav a, #nav a:link, #nav a:visited {
   color: white;
   text-decoration: none;
 }
 
-a:link {
-  color: white;
-  text-decoration: none;
-
-}
-
-nav a:hover {
+a:hover, a:visited:hover, #nav a:hover, #nav a:visited:hover {
   color: #f6c4f8;
   text-decoration: none;
 }
 
-a:visited { 
-  color: white;
+a:hover, a:visited:hover {
+  color: #f67dd8;
   text-decoration: none;
-}
-
-a:visited:hover { 
-  color: #f6c4f8;
 }
 
 #nav {
@@ -124,7 +119,7 @@ ul{
 }
 
 #about {
-   background-color: rgb(216, 209, 222);
+   background-color: rgb(244, 235, 246);
 }
 
 #skills {
@@ -132,7 +127,7 @@ ul{
 }
 
 #code {
-   background-color: rgb(216, 209, 222);
+   background-color: rgb(244, 235, 246);
 }
 
 #writing {
@@ -141,24 +136,12 @@ ul{
 
 #footer {
    padding: 5px;
-   background-color: rgb(216, 209, 222);
+   background-color: rgb(244, 235, 246);
 }
 
 #footer li {
     display: inline;
     padding: 2px;
-}
-
-#writing a {
-    color: black;
-}
-
-#code a:hover {
-    color: #5B5A72;
-}
-
-#writing a:hover {
-    color: #5B5A72;
 }
 
 .container {
