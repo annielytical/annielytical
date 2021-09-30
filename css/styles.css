@@ -19,14 +19,14 @@ body {
     background-image: linear-gradient(
       rgba(154,124,154, 0.6),
       rgba(154,124,154, 0.6)),
-      url("/images/oo.jpg");
+      url("../images/oo.jpg");
 }
 
 #root {
     background-image: linear-gradient(
       rgba(154,124,154, 0.6),
       rgba(154,124,154, 0.6)),
-      url("/images/oo.jpg");
+      url("../images/oo.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
@@ -162,4 +162,11 @@ span{
   height: 85px;
   margin-top: -85px;
   visibility: hidden;
+}
+
+#col2 {
+  columns: 2;
+  text-align: justify;
+  text-justify: inter-word;
+  column-gap: 40px;
 }
