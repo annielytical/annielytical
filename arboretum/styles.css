@@ -151,31 +151,6 @@ p {
   margin: 0;
 }
 
-/* small screens */
-@media only screen and (max-device-width: 600px) {
-  #story {
-    flex-direction: column;
-  }
-
-  .columns {
-    column-count: 1;
-  }
-
-  h1 {
-    font-size: 50px;
-    padding-top: 50px;
-  }
-
-  h2 {
-    font-size: 50px;
-    text-align: left;
-  }
-
-  .season a {
-    font-size: 24px;
-  }
-}
-
 /* subpages */
 .photo-grid {
   display: grid;
