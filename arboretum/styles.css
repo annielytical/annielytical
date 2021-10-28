@@ -32,20 +32,20 @@ article {
   margin-bottom: 0;
   padding: 0;
   color: black;
-  background-color:  #faf5f6;
+  background-color: #faf5f6;
 }
 
 .seasons {
-   display: flex;
-   flex: 100%;
-   margin: auto;
-   align-items: center;
-   justify-content: center;
-   background-color:  white;
-   padding-bottom: 10px;
-   padding-top: 10px;
-   margin-right: 0px;
-   margin-left: 0px;
+  display: flex;
+  flex: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .season {
@@ -152,22 +152,25 @@ p {
 }
 
 /* small screens */
-@media only screen
-and (max-device-width: 600px){
+@media only screen and (max-device-width: 600px) {
   #story {
     flex-direction: column;
   }
+
   .columns {
     column-count: 1;
   }
+
   h1 {
     font-size: 50px;
     padding-top: 50px;
   }
+
   h2 {
     font-size: 50px;
     text-align: left;
   }
+
   .season a {
     font-size: 24px;
   }
@@ -192,6 +195,7 @@ and (max-device-width: 600px){
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(359deg);
   }
@@ -227,9 +231,9 @@ and (max-device-width: 600px){
 
 /* fall specific */
 #photo-grid-fall {
-    display: grid;
-    grid-template-columns: repeat(4,33.33%);
-    grid-template-rows: repeat(4,500px);
+  display: grid;
+  grid-template-columns: repeat(4, 33.33%);
+  grid-template-rows: repeat(4, 500px);
 }
 
 #photo-grid-fall #p1 {
@@ -294,9 +298,9 @@ and (max-device-width: 600px){
 
 /* winter specific */
 #photo-grid-winter {
-    display: grid;
-    grid-template-columns: repeat(4,33.33%);
-    grid-template-rows: repeat(4,500px);
+  display: grid;
+  grid-template-columns: repeat(4, 33.33%);
+  grid-template-rows: repeat(4, 500px);
 }
 
 #photo-grid-winter #p1 {
@@ -349,9 +353,9 @@ and (max-device-width: 600px){
 
 /* spring specific */
 #photo-grid-spring {
-    display: grid;
-    grid-template-columns: repeat(2,33.33%);
-    grid-template-rows: repeat(2,500px);
+  display: grid;
+  grid-template-columns: repeat(2, 33.33%);
+  grid-template-rows: repeat(2, 500px);
 }
 
 #photo-grid-spring #p1 {
@@ -386,9 +390,9 @@ and (max-device-width: 600px){
 
 /* summer specific */
 #photo-grid-summer {
-    display: grid;
-    grid-template-columns: repeat(3,33.33%);
-    grid-template-rows: repeat(3,500px);
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(3, 500px);
 }
 
 #photo-grid-summer #p1 {
