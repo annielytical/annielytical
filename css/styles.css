@@ -1,6 +1,11 @@
 @font-face {
     font-family: ty;
-    src: url('Thank you.ttf');
+    src: url('thank_you.ttf');
+}
+
+@font-face {
+    font-family: sansation;
+    src: url('Sansation_Regular.ttf');
 }
 
 body {
